@@ -124,9 +124,9 @@ class Spreadsheet
         return Util::getLinkHref($this->xml, self::REL_WORKSHEETS_FEED);
     }
     
-    public function toXml()
+    public function xml()
     {
-        return $this->xml->asXML();      
+        return $this->xml;
     }
 
 }
