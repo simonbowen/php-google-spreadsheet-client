@@ -52,6 +52,11 @@ class CellFeed
         $this->xml = new SimpleXMLElement($xml);
         $this->entries = array();
     }
+    
+    public function xml()
+    {
+        return $this->xml;
+    }
 
     /**
      * Get the feed entries
