@@ -119,4 +119,9 @@ class ListFeed
         }
         return $ret;
     }
+    
+    public function xml()
+    {
+        return $this->xml;
+    }
 }
