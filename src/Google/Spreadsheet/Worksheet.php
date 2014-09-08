@@ -49,6 +49,11 @@ class Worksheet
         $xml->registerXPathNamespace('gs', 'http://schemas.google.com/spreadsheets/2006');
         $this->xml = $xml;
     }
+    
+    public function xml()  
+    {
+        return $this->xml;
+    }
 
     /**
      * Get the worksheet id. Returns the full url. 
